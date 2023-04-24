@@ -1,1 +1,29 @@
 /* stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+body, 
+button {
+    font-family: "Caveat", cursive;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 1em;
+}
+
+p, 
+button {
+    margin: 1em;
+}
+
+p:not(#action-dots) {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+button,
+#action-dots {
+    font-size: 1.25em;
+}
