@@ -2,6 +2,13 @@
 
 const locations = [
     "Aenucoya","Dreodora","Strikoth","Oyapios","Lunahold"
+];
+
+const playbooks = [
+    "Psychic",
+    "Shifter",
+    "Conduit",
+    "Spellcrafter"
 ]
 
 function randomString(arr) {
@@ -26,10 +33,15 @@ function characterTime() {
         }
     }
 
-    document.getElementById("action-dots").innerHTML = dotsText;
+        document.getElementById("action-dots").innerHTML = dotsText;
 
     const place = randomString(locations);
-    console.log(place);
+    // console.log(place);
 
-    document.getElementById("locations-time").innerHTML = place;
+        document.getElementById("locations-time").innerHTML = place;
+
+    const job = randomString(playbooks);
+    console.log(job);
+
+        document.getElementById("playbook-pog").innerHTML = job;
 }
